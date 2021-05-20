@@ -102,8 +102,6 @@
   margin-left: 20px;
 }
 
-.side-Nav-Wrapper {
-}
 .contents-List {
   border-left: 2px solid #c4c4c4;
   padding-left: 20px;
@@ -246,10 +244,34 @@
 
 .user-Research-Right {
   width: 50%;
-
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  list-style-type: none;
+  padding-left: 0px !important;
+}
+.slick-dots button {
+  display: block;
+  width: 0.7rem;
+  height: 0.7rem;
+  padding: 0;
+  margin: 5px;
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 2px solid #000000 !important;
+  text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: black;
 }
 
 .user-Research-Left h1 {
@@ -300,8 +322,6 @@
   font-weight: bold;
   content: counter(item) ". ";
 }
-
-/*test */
 
 .site-Map-Container {
   width: 100%;
@@ -838,17 +858,15 @@ li {
 .motion-Lower {
   width: 100%;
   height: auto;
-
   display: flex;
 }
 
-.video-Player {
+.video-Player-Container {
   height: 100%;
   width: 33%;
-  position: relative;
 }
 
-.video-Player h1 {
+.video-Player-Container h1 {
   color: #505050;
   font-size: 18px;
   font-weight: 400;
@@ -857,9 +875,14 @@ li {
   padding-left: 1%;
 }
 
-.video-Player video {
+.video-Container {
   height: 650px;
   width: 301px;
+  position: relative;
+}
+.video-Player-Container video {
+  height: 100%;
+  width: 100%;
 }
 
 .controls {
@@ -878,35 +901,29 @@ li {
   height: 100%;
 }
 .video-controls:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 600;
-  content: "\f144";
-  font-size: 130px;
-  color: #416bd0;
+  content: url("../images/mercury/play-button.svg");
 }
 
 .play:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 600;
-  content: "\f144";
-  font-size: 130px;
-  color: #416bd0;
-  display: none;
+  content: url("../images/mercury/play-button.svg");
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 10s, opacity 0.2s linear;
 }
 
 .pause:before {
-  content: "\f28b";
-  font-family: "Font Awesome 5 Free";
-  font-size: 130px;
-  font-weight: 600;
-  color: #416bd0;
-  display: none;
+  content: url("../images/mercury/pause-button.svg");
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 10s, opacity 0.2s linear;
 }
 
 .play:hover::before {
-  display: inline-block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .pause:hover::before {
-  display: inline-block;
+  visibility: visible;
+  opacity: 1;
 }

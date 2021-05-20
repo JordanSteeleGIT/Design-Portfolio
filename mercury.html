@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./styles/mercury-styles.css" />
 
     <link rel="stylesheet" href="./styles/shared-styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/slick.css">
+
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
     <link rel="icon" href="./images/index/Logo.svg">
+
     <title>Mercury</title>
 </head>
 
@@ -137,10 +141,10 @@
                                     <br>
                                     <li><span>The day out shopper</span><br>
                                         A user who enjoy and make a day of shopping, enjoys the experience
-                                    </li><br>
+                                    </li>
                                     <li><span>The Parent</span><br>
                                         A user who is going shopping for a purpose rather than an experience
-                                    </li><br>
+                                    </li>
 
                                     <li><span>The Student</span><br>
                                         This would take into account all of the people who sit in the middle of these
@@ -150,7 +154,12 @@
                                 </ol>
                             </div>
                             <div class="user-Research-Right">
-                                <img src="./images/mercury/user-research-image-one.png" alt="" srcset="">
+                                <div><img src="./images/mercury/user-research-images/user-research-image-one.png" alt=""
+                                        srcset=""></div>
+                                <div><img src="./images/mercury/user-research-images/user-research-image-two.png" alt=""
+                                        srcset=""></div>
+                                <div><img src="./images/mercury/user-research-images/user-research-image-three.png"
+                                        alt="" srcset=""></div>
                             </div>
                         </div>
                     </section>
@@ -426,31 +435,38 @@
                                     that will function in intuitive ways without having to clutter their UI</p>
                             </div>
                             <div class="motion-Lower">
-                                <div class="video-Player">
-                                    <video class="video" id="video1" src="./videos/mercury/basket.mp4" loop></video>
-                                    <div class="controls">
-                                        <button onclick="togglePlayPauseVideoOne()"
-                                            class="video-controls button-one"></button>
+                                <div class="video-Player-Container">
+                                    <div class="video-Container">
+                                        <video class="video" id="video1" src="./videos/mercury/basket.mp4" loop></video>
+                                        <div class="controls">
+                                            <button onclick="togglePlayPauseVideoOne()"
+                                                class="video-controls button-one"></button>
+                                        </div>
                                     </div>
                                     <h1>Showing the feed back to the user would get when they add an item to their
                                         basket
                                     </h1>
                                 </div>
-                                <div class="video-Player">
-                                    <video class="video" id="video2" src="./videos/mercury/filter.mp4" loop></video>
-                                    <div class="controls">
-                                        <button onclick="togglePlayPauseVideoTwo()"
-                                            class="video-controls button-two"></button>
+                                <div class="video-Player-Container">
+                                    <div class="video-Container">
+                                        <video class="video" id="video2" src="./videos/mercury/filter.mp4" loop></video>
+                                        <div class="controls">
+                                            <button onclick="togglePlayPauseVideoTwo()"
+                                                class="video-controls button-two"></button>
+                                        </div>
                                     </div>
                                     <h1>Showing how the filter section would allow the user to set preferences for their
                                         search
                                     </h1>
                                 </div>
-                                <div class="video-Player">
-                                    <video class="video" id="video3" src="./videos/mercury/cart.mp4" loop></video>
-                                    <div class="controls">
-                                        <button onclick="togglePlayPauseVideoThree()"
-                                            class="video-controls button-three"></button>
+                                <div class="video-Player-Container">
+                                    <div class="video-Container">
+                                        <video class="video" id="video3" src="./videos/mercury/cart.mp4" loop></video>
+                                        <div class="controls">
+
+                                            <button onclick="togglePlayPauseVideoThree()"
+                                                class="video-controls button-three"></button>
+                                        </div>
                                     </div>
                                     <h1>Showing how the user would remove items from their basket without having to have
                                         extra icons or text added to the design
@@ -506,6 +522,11 @@
         </div>
     </div>
     <script src="./scripts/mercury.js"></script>
+    <script src="./scripts/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/slick-config.js"></script>
+
+
 </body>
 
 </html>
