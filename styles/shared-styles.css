@@ -52,3 +52,42 @@ body {
   font-size: 18px;
   color: #000000;
 }
+
+.footer-Container {
+  width: 100vw;
+  height: 128px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-Wrapper {
+  width: 1140px;
+  height: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-Right button {
+  width: 140px;
+  height: 40px;
+  background-color: #416bd0;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer-Left {
+  display: flex;
+}
+
+.footer-Left h1 {
+  display: flex;
+  color: #505050;
+  font-size: 21px;
+  font-weight: 400;
+  margin-left: 20px;
+}
