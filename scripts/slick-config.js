@@ -27,9 +27,9 @@ $(".final-Interation-Slider").slick({
   nextArrow: false,
   slidesToShow: 3,
   slidesToScroll: 3,
-  // autoplay: true,
-  // autoplaySpeed: 3000,
-  // speed: 800,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  speed: 800,
 });
 
 //Booking changing room slider
@@ -39,9 +39,7 @@ $(".booking-Slider-Container").slick({
   nextArrow: false,
   slidesToShow: 4,
   slidesToScroll: 3,
-  // autoplay: true,
-  // autoplaySpeed: 3000,
-  // speed: 800,
+  infinite: false,
 });
 
 //Finding a store
@@ -52,9 +50,7 @@ $(".store-Slider-Container").slick({
   nextArrow: false,
   slidesToShow: 4,
   slidesToScroll: 3,
-  // autoplay: true,
-  // autoplaySpeed: 3000,
-  // speed: 800,
+  infinite: false,
 });
 
 //Ordering items slider
@@ -65,7 +61,5 @@ $(".order-Slider-Container").slick({
   nextArrow: false,
   slidesToShow: 4,
   slidesToScroll: 3,
-  // autoplay: true,
-  // autoplaySpeed: 3000,
-  // speed: 800,
+  infinite: false,
 });

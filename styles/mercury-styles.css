@@ -1,10 +1,3 @@
-*,
-*::before,
-*::after {
-  margin: 0px;
-  box-sizing: border-box;
-}
-
 .mercury-Content-Container {
   height: 100%;
   width: 1140px;
@@ -67,79 +60,6 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
-}
-
-.mercury-Main-Content-Container {
-  width: 100%;
-  height: auto;
-}
-
-.mercury-Main-Content-Wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.mercury-Main-Content-Left {
-  width: 942.79px;
-  height: 100%;
-}
-.sticky {
-  position: fixed !important;
-  top: 0px;
-  padding-top: 70px;
-}
-.mercury-Main-Content-Right {
-  width: 198px;
-  height: 100%;
-  position: relative;
-}
-
-.side-Nav-Container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  margin-left: 20px;
-}
-
-.contents-List {
-  border-left: 2px solid #c4c4c4;
-  padding-left: 20px;
-}
-.side-Nav-Wrapper h1 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
-  margin-bottom: 10px;
-}
-
-.contents-List h2 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-  color: #505050;
-  margin-bottom: 10px;
-}
-
-.contents-List h3 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  color: #505050;
-  margin-bottom: 10px;
-}
-
-.contents-List h3:hover {
-  border-left: 5px solid black;
-  margin-left: -23px;
-  padding-left: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.sidenav-last {
-  margin-bottom: 20px !important;
 }
 
 .goals-Container {
@@ -1245,7 +1165,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-top: 25px;
 }
 
 .case-Study-Right {
