@@ -63,3 +63,32 @@ $(".order-Slider-Container").slick({
   slidesToScroll: 3,
   infinite: false,
 });
+//Parcel slider
+$(".tracking-Parcel-Slider").slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  infinite: false,
+});
+
+//Creating account
+$(".creating-Account-Slider").slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  slidesToShow: 3,
+  slidesToScroll: 2,
+  infinite: false,
+});
+
+//Checking orders
+$(".checking-Orders-Slider").slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  infinite: false,
+});
