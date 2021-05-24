@@ -190,6 +190,9 @@
   text-indent: -9999px;
 }
 
+.slick-dots li {
+  width: auto;
+}
 .slick-dots li.slick-active button {
   background-color: black;
 }
