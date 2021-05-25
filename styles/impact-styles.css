@@ -585,11 +585,11 @@ li {
   padding-left: 20px;
 }
 
-.wireframes-Lower .slick-list {
+.impact-Wireframes-Lower .slick-list {
   padding: 0 90px 0 0 !important;
 }
 
-.wireframes-Lower:after {
+.impact-Wireframes-Lower:after {
   content: "";
   position: absolute;
   z-index: 1;

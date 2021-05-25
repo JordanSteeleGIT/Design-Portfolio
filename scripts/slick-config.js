@@ -94,7 +94,7 @@ $(".checking-Orders-Slider").slick({
 });
 
 //Wireframes
-$(".wireframes-Lower").slick({
+$(".impact-Wireframes-Lower").slick({
   dots: false,
   prevArrow: false,
   nextArrow: false,
