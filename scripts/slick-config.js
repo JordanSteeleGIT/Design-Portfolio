@@ -92,3 +92,33 @@ $(".checking-Orders-Slider").slick({
   slidesToScroll: 2,
   infinite: false,
 });
+
+//Wireframes
+$(".wireframes-Lower").slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  infinite: false,
+});
+
+//Impact desktop slider
+$(".desktop-Slider-Container").slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  infinite: false,
+});
+
+//Impact mobile slider
+$(".mobile-Slider-Container").slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  slidesToShow: 3,
+  slidesToScroll: 2,
+  infinite: false,
+});
