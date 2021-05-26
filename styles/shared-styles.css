@@ -92,8 +92,6 @@ body {
   margin-left: 20px;
 }
 
-/**/
-
 .main-Content-Container {
   width: 100%;
   height: auto;
@@ -113,7 +111,6 @@ body {
 .main-Content-Right {
   width: 198px;
   height: 100%;
-  position: relative;
 }
 
 .side-Nav-Container {
@@ -121,12 +118,14 @@ body {
   width: 100%;
   height: 100%;
   margin-left: 20px;
+  background-color: red;
 }
 
 .contents-List {
   border-left: 2px solid #c4c4c4;
   padding-left: 20px;
 }
+
 .side-Nav-Wrapper h1 {
   font-weight: 400;
   font-size: 18px;

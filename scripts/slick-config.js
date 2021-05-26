@@ -1,13 +1,22 @@
 //Homepage banner slider
 $(".brands-Image-Container").slick({
-  dots: false,
+  // dots: false,
+  // prevArrow: false,
+  // nextArrow: false,
+  // slidesToShow: 2,
+  // slidesToScroll: 2,
+  // autoplay: true,
+  // autoplaySpeed: 3000,
+
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 8000,
+  pauseOnHover: false,
+  cssEase: "linear",
   prevArrow: false,
   nextArrow: false,
-  slidesToShow: 2,
-  slidesToScroll: 2,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  speed: 800,
 });
 
 //Mercury user research slider
@@ -109,8 +118,10 @@ $(".desktop-Slider-Container").slick({
   prevArrow: false,
   nextArrow: false,
   slidesToShow: 2,
-  slidesToScroll: 2,
-  infinite: false,
+  slidesToScroll: 1,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });
 
 //Impact mobile slider
@@ -119,6 +130,8 @@ $(".mobile-Slider-Container").slick({
   prevArrow: false,
   nextArrow: false,
   slidesToShow: 3,
-  slidesToScroll: 2,
-  infinite: false,
+  slidesToScroll: 1,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });

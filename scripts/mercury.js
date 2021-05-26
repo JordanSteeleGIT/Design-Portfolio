@@ -1,4 +1,7 @@
 var container = document.querySelector(".side-Nav-Wrapper");
+var container2 = document.querySelector(".side-Nav-Container");
+
+var tester = document.querySelector(".next-Case-Study-Container");
 
 var videoOne = document.querySelector("#video1");
 var videoTwo = document.querySelector("#video2");
@@ -41,6 +44,7 @@ function togglePlayPauseVideoThree() {
 
 window.onscroll = function () {
   stickyNav();
+  test();
 };
 
 function stickyNav() {
@@ -48,3 +52,9 @@ function stickyNav() {
     ? container.classList.add("sticky")
     : container.classList.remove("sticky");
 }
+
+// function test() {
+//   if (document.documentElement.scrollTop > tester.offsetTop - 1000) {
+//     container2.classList.remove("sticky");
+//   }
+// }
