@@ -7,7 +7,7 @@ CSS variables for text
   --paragraph-font-weight: 400;
   --paragraph-font-size: 18px;
   --paragraph-line-height: 22px;
-  --paragraph-color: red;
+  --paragraph-color: #505050;
 }
 
 *,
