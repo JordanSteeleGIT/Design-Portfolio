@@ -42,16 +42,16 @@ function togglePlayPauseVideoThree() {
   }
 }
 
-window.onscroll = function () {
-  stickyNav();
-  test();
-};
+// window.onscroll = function () {
+//   stickyNav();
+//   test();
+// };
 
-function stickyNav() {
-  return document.documentElement.scrollTop > container.offsetTop + 680
-    ? container.classList.add("sticky")
-    : container.classList.remove("sticky");
-}
+// function stickyNav() {
+//   return document.documentElement.scrollTop > container.offsetTop + 680
+//     ? container.classList.add("sticky")
+//     : container.classList.remove("sticky");
+// }
 
 // function test() {
 //   if (document.documentElement.scrollTop > tester.offsetTop - 1000) {
