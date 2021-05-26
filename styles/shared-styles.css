@@ -1,3 +1,15 @@
+/* 
+CSS variables for text
+*/
+
+/* p */
+:root {
+  --paragraph-font-weight: 400;
+  --paragraph-font-size: 18px;
+  --paragraph-line-height: 22px;
+  --paragraph-color: red;
+}
+
 *,
 *::before,
 *::after {

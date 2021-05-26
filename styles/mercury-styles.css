@@ -49,17 +49,14 @@
   margin-bottom: 10px;
 }
 .mercury-Banner-Right p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .mercury-Banner-Right span {
-  color: #505050;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 22px;
 }
 
 .goals-Container {
@@ -104,10 +101,10 @@
   padding-left: 20px;
 }
 .goals-Upper li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 93%;
 }
 .goals-Upper span {
@@ -201,25 +198,22 @@
 }
 
 .user-Research-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
 .user-Research-Left span {
-  color: #505050;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 22px;
 }
 
 .user-Research-Left li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 92%;
 }
 
@@ -276,25 +270,22 @@
 }
 
 .site-Map-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
 .site-Map-Left span {
-  color: #505050;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 22px;
 }
 
 .site-Map-Left li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 92%;
 }
 
@@ -348,10 +339,10 @@
 }
 
 .user-Journeys-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .user-Journeys-Right {
@@ -363,10 +354,10 @@
 }
 
 .user-Journeys-Right h2 {
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   text-align: right;
   width: 80%;
   float: right;
@@ -414,10 +405,10 @@
 
 .userflow-Upper-Content p,
 li {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .userflow-Upper-Right ol {
@@ -486,10 +477,10 @@ li {
 }
 .wireframes-Upper p,
 li {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .wireframes-Upper ol {
@@ -509,10 +500,10 @@ li {
 }
 
 .wireframes-Lower h2 {
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   text-align: right;
   width: 37%;
   float: right;
@@ -539,10 +530,10 @@ li {
 }
 
 .user-Testing-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
@@ -559,9 +550,9 @@ li {
 .user-Testing-Right h2 {
   padding-top: 30px;
   float: right;
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--paragraph-font-weight);
 }
 
 .layout-Container {
@@ -587,10 +578,10 @@ li {
 }
 
 .layout-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
@@ -627,10 +618,10 @@ li {
 }
 
 .color-Scheme-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 98%;
 }
 
@@ -668,10 +659,10 @@ li {
 }
 
 .iconography-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 100%;
   margin-bottom: 25px;
 }
@@ -683,14 +674,6 @@ li {
 .iconography-Left {
   width: 50%;
   padding-right: 5%;
-}
-
-.iconography-Right h2 {
-  padding-top: 30px;
-  float: right;
-  color: #505050;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .iconography-Left-Image {
@@ -721,10 +704,10 @@ li {
 }
 
 .typography-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 88%;
 }
 
@@ -767,10 +750,10 @@ li {
 }
 
 .motion-Upper p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .motion-Lower {
@@ -785,10 +768,10 @@ li {
 }
 
 .video-Player-Container h1 {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
   padding-left: 1%;
 }
@@ -955,6 +938,10 @@ li {
   width: 90%;
   height: auto;
   margin-top: 10px;
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: 17px;
 }
 
 .store-Slider {
@@ -994,6 +981,10 @@ li {
   width: 90%;
   height: auto;
   margin-top: 10px;
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: 17px;
 }
 
 .order-Slider {
@@ -1033,6 +1024,10 @@ li {
   width: 90%;
   height: auto;
   margin-top: 10px;
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: 17px;
 }
 
 .measuring-Sucess-Container {
@@ -1071,10 +1066,10 @@ li {
 }
 
 .measuring-Sucess-Right p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
@@ -1111,10 +1106,10 @@ li {
 }
 
 .next-Steps-Content p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 96%;
 }
 
@@ -1196,10 +1191,10 @@ li {
 }
 
 .case-Study-Container p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
   margin-bottom: 40px;
 }

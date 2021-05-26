@@ -51,17 +51,14 @@
   margin-bottom: 10px;
 }
 .stacked-Banner-Right p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .stacked-Banner-Right span {
-  color: #505050;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 22px;
 }
 
 .goals-Container {
@@ -106,10 +103,10 @@
   padding-left: 20px;
 }
 .goals-Upper li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 93%;
 }
 .goals-Upper span {
@@ -140,10 +137,10 @@
 }
 
 .process-Wrapper h2 {
-  font-weight: 400;
+  font-weight: var(--paragraph-font-weight);
   font-size: 14px;
-  line-height: 22px;
-  color: #505050;
+  line-height: var(--paragraph-line-height);
+  color: var(--paragraph-color);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -206,10 +203,10 @@
 }
 
 .user-Research-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 97%;
 }
 
@@ -221,10 +218,10 @@
 }
 
 .user-Research-Left li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 92%;
 }
 
@@ -280,25 +277,18 @@
 }
 
 .site-Map-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
-.site-Map-Left span {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 22px;
-}
-
 .site-Map-Left li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 92%;
 }
 
@@ -331,10 +321,10 @@
 }
 
 .site-Flow-Wrapper p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 96%;
   margin-bottom: 30px;
 }
@@ -366,10 +356,10 @@
 }
 
 .wireframes-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 96%;
   margin-bottom: 50px;
 }
@@ -377,8 +367,9 @@
 .wireframes-Left h2 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  line-height: var(--paragraph-line-height);
+  color: var(--paragraph-color);
+
   width: 30%;
   margin-bottom: 10px;
 }
@@ -400,10 +391,10 @@
 }
 
 .wireframes-Right li {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 96%;
 }
 
@@ -442,10 +433,10 @@
 }
 
 .testing-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .testing-Right,
@@ -454,9 +445,9 @@
 }
 
 .testing-Right h2 {
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--paragraph-font-weight);
   line-height: 22px;
   text-align: right;
   width: 80%;
@@ -496,10 +487,10 @@
 }
 
 .style-Guide-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   margin-bottom: 35px;
 }
 
@@ -536,16 +527,16 @@
 }
 
 .layout-Content h2 {
-  color: #505050;
-  font-size: 18px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
   font-weight: 700;
-  line-height: 22px;
+  line-height: var(--paragraph-line-height);
 }
 .layout-Content p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 .layout-Right {
@@ -576,10 +567,10 @@
 }
 
 .color-Scheme-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 98%;
 }
 
@@ -617,10 +608,10 @@
 }
 
 .iconography-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 100%;
   margin-bottom: 25px;
 }
@@ -632,14 +623,6 @@
 .iconography-Left {
   width: 50%;
   padding-right: 5%;
-}
-
-.iconography-Right h2 {
-  padding-top: 30px;
-  float: right;
-  color: #505050;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .iconography-Left-Image {
@@ -667,10 +650,10 @@
 }
 
 .illustrations-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 93%;
 }
 
@@ -707,10 +690,10 @@
 }
 
 .typography-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
@@ -745,10 +728,10 @@
 }
 
 .final-Iteration-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 98%;
 }
 
@@ -803,10 +786,10 @@
 
 .tracking-Parcel-Slider p {
   width: 84.5%;
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   margin-top: 15px;
 }
 
@@ -843,10 +826,10 @@
 
 .creating-Account-Slider p {
   width: 84.5%;
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   margin-top: 15px;
 }
 
@@ -883,10 +866,10 @@
 
 .checking-Orders-Slider p {
   width: 84.5%;
-  color: #505050;
+  color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   margin-top: 15px;
 }
 
@@ -925,10 +908,10 @@
 
 .measuring-Sucess-Wrapper p,
 li {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 100%;
 }
 
@@ -951,10 +934,10 @@ li {
 }
 
 .reflection-Wrapper p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 59%;
 }
 
@@ -1024,10 +1007,10 @@ li {
 }
 
 .case-Study-Container p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 90%;
   margin-bottom: 40px;
 }

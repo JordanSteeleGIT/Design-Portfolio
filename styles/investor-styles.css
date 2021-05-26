@@ -49,23 +49,14 @@
   margin-bottom: 10px;
 }
 .investor-Banner-Right p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .investor-Banner-Right span {
-  color: #505050;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 22px;
-}
-
-.sticky {
-  position: fixed !important;
-  top: 0px;
-  padding-top: 70px;
 }
 
 .goals-Container {
@@ -110,10 +101,10 @@
   padding-left: 20px;
 }
 .goals-Upper li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 .goals-Upper span {
@@ -144,10 +135,10 @@
 }
 
 .designs-Wrapper h1 span {
-  font-weight: 400;
+  font-weight: var(--paragraph-font-weight);
   font-size: 16px;
   line-height: 20px;
-  color: #505050;
+  color: var(--paragraph-color);
 }
 
 .designs-Image-Container {
@@ -193,10 +184,10 @@
 }
 
 .conversion-Rate-Left p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 98%;
 }
 
@@ -240,16 +231,16 @@
 
 .test-Box-Text h2 {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  line-height: var(--paragraph-line-height);
 }
 
 .test-Box-Text p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 90%;
 }
 
@@ -270,10 +261,10 @@
 }
 
 .note p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 20px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
 .cta-Container {
@@ -327,16 +318,16 @@
 
 .cta-Box-Text h2 {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  line-height: var(--paragraph-line-height);
 }
 
 .cta-Box-Text p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 100%;
 }
 
@@ -360,17 +351,17 @@
 }
 
 .investor-Conclusion-Left h1 {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  line-height: var(--paragraph-line-height);
 }
 
 .investor-Conclusion-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 98%;
 }
 
@@ -407,10 +398,10 @@
 }
 
 .user-Retension-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
@@ -448,16 +439,16 @@
 
 .orginal-Pitch-Left h2 {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  line-height: var(--paragraph-line-height);
 }
 
 .orginal-Pitch-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
 }
 
@@ -500,7 +491,12 @@
   margin-bottom: 50px;
 }
 
-/**/
+.split-Test-Box p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: var(--paragraph-font-weight);
+  line-height: 17px;
+}
 
 .test-Results-Container {
   width: 100%;
@@ -529,18 +525,11 @@
   margin-bottom: 10px;
 }
 
-.test-Results-Left h2 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
-}
-
 .test-Results-Left p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 96%;
 }
 
@@ -580,21 +569,20 @@
 }
 
 .success-Left li {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 92%;
 }
 
 .success-Right p {
-  color: #505050;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
 }
 
-/**/
 .next-Case-Study-Container {
   width: 100%;
   height: auto;
@@ -661,10 +649,10 @@
 }
 
 .case-Study-Container p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #505050;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
   width: 95%;
   margin-bottom: 40px;
 }
