@@ -6,7 +6,7 @@ CSS variables for text
 :root {
   --paragraph-font-weight: 400;
   --paragraph-font-size: 18px;
-  --paragraph-line-height: 22px;
+  --paragraph-line-height: 28px;
   --paragraph-color: #505050;
 }
 
