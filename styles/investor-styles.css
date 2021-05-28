@@ -351,10 +351,10 @@
 }
 
 .investor-Conclusion-Left h1 {
-  color: var(--paragraph-color);
-  font-size: var(--paragraph-font-size);
-  font-weight: 700;
-  line-height: var(--paragraph-line-height);
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+  color: #000000;
 }
 
 .investor-Conclusion-Left p {
@@ -495,7 +495,8 @@
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: 17px;
+  line-height: 23px;
+  font-style: italic;
 }
 
 .test-Results-Container {

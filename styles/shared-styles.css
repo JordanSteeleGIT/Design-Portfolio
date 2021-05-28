@@ -16,7 +16,9 @@ CSS variables for text
   margin: 0px;
   box-sizing: border-box;
 }
-
+button {
+  cursor: pointer;
+}
 body {
   display: flex;
   align-items: center;
@@ -25,6 +27,10 @@ body {
   overflow-x: hidden;
   background-color: #f8f8f8;
   flex-direction: column;
+}
+
+::selection {
+  background: #b6d1fc;
 }
 
 .navbar-Container {
@@ -55,7 +61,19 @@ body {
   height: 29px;
   border-radius: 5px;
   background-color: transparent;
-  cursor: pointer;
+}
+
+.navbar-Right button:hover {
+  border: none;
+  color: #ffffff;
+  background-color: #416bd0;
+}
+
+.navbar-Right button:active {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
 }
 
 .navbar-Right h1 {
@@ -90,6 +108,19 @@ body {
   border: none;
   color: #ffffff;
   font-size: 16px;
+}
+
+.footer-Right button:hover {
+  background-color: transparent;
+  border: 3px solid #416bd0;
+  color: #416bd0;
+}
+
+.footer-Right button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
+  border: none;
+  color: #ffffff;
 }
 
 .footer-Left {

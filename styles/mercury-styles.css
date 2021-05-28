@@ -227,18 +227,18 @@
   padding: 0 0 0 1em;
   text-indent: -1em;
   list-style-type: none;
+
   counter-increment: item;
 }
 
 .user-Research-Left ol > li:before {
-  font-weight: bold;
   content: counter(item) ". ";
 }
 
 .site-Map-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 .site-Map-Wrapper {
   width: 100%;
@@ -296,6 +296,7 @@
 .information-Structure-Container {
   width: 100%;
   height: auto;
+  margin-bottom: 90px;
 }
 
 .information-Structure-Wrapper {
@@ -316,7 +317,7 @@
 .user-Journeys-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 180px;
+  margin-bottom: 90px;
 }
 
 .user-Journeys-Wrapper {
@@ -431,7 +432,7 @@ li {
 .wireframes-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 150px;
+  margin-bottom: 90px;
 }
 
 .wireframes-Wrapper {
@@ -513,7 +514,7 @@ li {
 .user-Testing-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 150px;
+  margin-bottom: 90px;
 }
 
 .user-Testing-Wrapper {
@@ -548,17 +549,17 @@ li {
 }
 
 .user-Testing-Right h2 {
-  padding-top: 30px;
   float: right;
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
+  padding-right: 18px;
 }
 
 .layout-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 .layout-Wrapper {
@@ -633,12 +634,13 @@ li {
 .color-Scheme-Right {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .iconography-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .iconography-Wrapper {
@@ -684,7 +686,7 @@ li {
 .typography-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 
 .typography-Wrapper {
@@ -771,9 +773,10 @@ li {
   color: var(--paragraph-color);
   font-size: var(--paragraph-font-size);
   font-weight: var(--paragraph-font-weight);
-  line-height: var(--paragraph-line-height);
+  line-height: 23px;
   width: 95%;
   padding-left: 1%;
+  font-style: italic;
 }
 
 .video-Container {
@@ -941,7 +944,8 @@ li {
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: 17px;
+  line-height: 23px;
+  font-style: italic;
 }
 
 .store-Slider {
@@ -984,7 +988,8 @@ li {
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: 17px;
+  line-height: 23px;
+  font-style: italic;
 }
 
 .order-Slider {
@@ -1027,7 +1032,8 @@ li {
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: 17px;
+  line-height: 23px;
+  font-style: italic;
 }
 
 .measuring-Sucess-Container {

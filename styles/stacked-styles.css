@@ -64,7 +64,7 @@
 .goals-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 40px;
+  margin-bottom: 90px;
 }
 
 .goals-Wrapper {
@@ -245,7 +245,7 @@
 .site-Map-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 .site-Map-Wrapper {
   width: 100%;
@@ -332,7 +332,7 @@
 .wireframes-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 180px;
+  margin-bottom: 120px;
 }
 
 .wireframes-Wrapper {
@@ -414,7 +414,7 @@
 .testing-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
+  margin-bottom: 120px;
 }
 
 .testing-Wrapper {
@@ -789,8 +789,9 @@
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: var(--paragraph-line-height);
+  line-height: 23px;
   margin-top: 15px;
+  font-style: italic;
 }
 
 .creating-Account-Container {
@@ -829,8 +830,9 @@
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: var(--paragraph-line-height);
+  line-height: 23px;
   margin-top: 15px;
+  font-style: italic;
 }
 
 .checking-Orders-Container {
@@ -869,8 +871,9 @@
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: var(--paragraph-font-weight);
-  line-height: var(--paragraph-line-height);
+  line-height: 23px;
   margin-top: 15px;
+  font-style: italic;
 }
 
 .measuring-Sucess-Container {

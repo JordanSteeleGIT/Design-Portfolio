@@ -80,10 +80,36 @@
   margin-right: 20px;
 }
 
+.mywork-Button:hover {
+  border: 2px solid #416bd0;
+  color: #416bd0;
+  background-color: transparent;
+}
+
+.mywork-Button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
+  color: #ffffff;
+  border: none;
+}
+
 .touch-Button {
   border: 2px solid #416bd0;
   color: #416bd0;
   background-color: transparent;
+}
+
+.touch-Button:hover {
+  border: none;
+  color: #ffffff;
+  background-color: #416bd0;
+}
+
+.touch-Button:active {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
 }
 
 .brands-Container {
@@ -286,6 +312,7 @@
   border-radius: 32px;
   border: none;
   color: #ffffff;
+  position: relative;
 }
 
 .case-Study-Box-One h2 {
@@ -295,21 +322,99 @@
   background-color: #f69651;
 }
 
+.case-Study-Box-One button:hover {
+  background-color: transparent;
+  border: 3px solid #f69651;
+  color: #f69651;
+}
+
+.case-Study-Box-One button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #f69651;
+  border: none;
+  color: #ffffff;
+}
+
 .case-Study-Box-Two h2 {
   background: linear-gradient(90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.case-Study-Box-Two button {
-  background: linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
+
+/*Changing color of linear gradient (best to not touch this!)*/
+.btn {
+  background: linear-gradient(90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #fff;
+  color: #fff;
+  border-radius: 32px;
+  position: relative;
+  z-index: 0;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 32px;
+  border: 3px solid transparent;
+  border-radius: 32px;
+  background: inherit;
+  background-origin: border-box;
+  background-clip: border-box;
+  -webkit-mask: linear-gradient(90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  -webkit-mask-repeat: no-repeat;
 }
 
-.case-Study-Box-Three h2 {
+.btn:hover::before {
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+}
+
+.btn:hover {
+  background: (90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:active::before {
+  -webkit-mask: linear-gradient(90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+}
+
+.btn:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
+}
+
+.about-Me-Container h2 {
   color: #4da9e6;
 }
 
 .case-Study-Box-Three button {
   background-color: #4da9e6;
+}
+
+.case-Study-Box-Three button:hover {
+  background-color: transparent;
+  border: 3px solid #4da9e6;
+  color: #4da9e6;
+}
+
+.case-Study-Box-Three button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #4da9e6;
+  border: none;
+  color: #ffffff;
 }
 
 .case-Study-Box-Four h2 {
@@ -318,6 +423,19 @@
 
 .case-Study-Box-Four button {
   background-color: #55ac68;
+}
+
+.case-Study-Box-Four button:hover {
+  background-color: transparent;
+  border: 3px solid #55ac68;
+  color: #55ac68;
+}
+
+.case-Study-Box-Four button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #55ac68;
+  border: none;
+  color: #ffffff;
 }
 
 .about-Me-Container {
@@ -483,6 +601,19 @@
   border: none;
   color: #ffffff;
   font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: transparent;
+  border: 3px solid #416bd0;
+  color: #416bd0;
+}
+
+.contact-form button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
+  border: none;
+  color: #ffffff;
 }
 
 .button-contact {

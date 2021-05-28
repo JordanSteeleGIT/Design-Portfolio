@@ -252,6 +252,10 @@
   color: #000000;
 }
 
+.research-Content span {
+  font-weight: 700;
+}
+
 .research-Content p {
   color: var(--paragraph-color);
   font-size: var(--paragraph-font-size);
