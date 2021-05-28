@@ -83,6 +83,19 @@ body {
   color: #000000;
 }
 
+.navbar-Right h1:hover {
+  color: #416bd0;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-length: 1px;
+}
+
+.navbar-Right h1:active {
+  color: #243b71;
+}
+
 .footer-Container {
   width: 100vw;
   height: 128px;

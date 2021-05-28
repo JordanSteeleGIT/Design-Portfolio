@@ -999,3 +999,15 @@ p {
   color: #ffffff;
   background: #f69651;
 }
+
+.case-Study-Container button:hover {
+  background-color: transparent;
+  border: 3px solid #f69651;
+  color: #f69651;
+}
+.case-Study-Container button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #f69651;
+  border: none;
+  color: #ffffff;
+}

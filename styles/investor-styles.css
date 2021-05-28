@@ -669,3 +669,16 @@
   color: #ffffff;
   background-color: #55ac68;
 }
+
+.case-Study-Container button:hover {
+  background-color: transparent;
+  border: 3px solid #55ac68;
+  color: #55ac68;
+}
+
+.case-Study-Container button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #55ac68;
+  border: none;
+  color: #ffffff;
+}

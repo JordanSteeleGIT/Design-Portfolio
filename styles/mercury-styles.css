@@ -476,6 +476,20 @@ li {
   font-size: 17px;
   font-weight: 400;
 }
+
+.wireframes-Upper-Left button:hover {
+  background-color: transparent;
+  border: 3px solid #416bd0;
+  color: #416bd0;
+}
+
+.wireframes-Upper-Left button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
+  border: none;
+  color: #ffffff;
+}
+
 .wireframes-Upper p,
 li {
   color: var(--paragraph-color);
@@ -872,6 +886,19 @@ li {
   font-weight: 400;
 }
 
+.final-Interation-Heading button:hover {
+  background-color: transparent;
+  border: 3px solid #416bd0;
+  color: #416bd0;
+}
+
+.final-Interation-Heading button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
+  border: none;
+  color: #ffffff;
+}
+
 .final-Interation-Slider {
   height: auto;
   width: 100%;
@@ -1214,5 +1241,58 @@ li {
   border-radius: 32px;
   border: none;
   color: #ffffff;
+}
+
+.btn {
   background: linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #fff;
+  color: #fff;
+  border-radius: 32px;
+  position: relative;
+  z-index: 0;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 32px;
+  border: 3px solid transparent;
+  border-radius: 32px;
+  background: inherit;
+  background-origin: border-box;
+  background-clip: border-box;
+  -webkit-mask: linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.btn:hover::before {
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+}
+
+.btn:hover {
+  background: (90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:active::before {
+  -webkit-mask: linear-gradient(90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+}
+
+.btn:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
 }

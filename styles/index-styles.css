@@ -343,7 +343,7 @@
 
 /*Changing color of linear gradient (best to not touch this!)*/
 .btn {
-  background: linear-gradient(90.33deg, #1ebc40 1.68%, #4bd1cd 48.19%);
+  background: linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: #fff;
