@@ -341,7 +341,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/*Changing color of linear gradient (best to not touch this!)*/
+/* Don't touch this↓. Don't even look at it, or it might break. */
 .btn {
   background: linear-gradient(91.95deg, #1dbb3d 0.8%, #4bd1cd 97.33%);
   -webkit-background-clip: text;
@@ -396,6 +396,7 @@
   -webkit-text-fill-color: #fff;
 }
 
+/* Ok you're safe */
 .about-Me-Container h2 {
   color: #4da9e6;
 }

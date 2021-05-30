@@ -146,7 +146,7 @@
 .user-Research-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 110px;
+  margin-bottom: 100px;
 }
 .user-Research-Wrapper {
   width: 100%;
@@ -234,6 +234,50 @@
 .user-Research-Left ol > li:before {
   content: counter(item) ". ";
 }
+
+.mercury-User-Research-Container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.mercury-User-Research-Wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.mercury-User-Research-Left h1 {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.mercury-User-Research-Left p {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
+  width: 88%;
+}
+
+.mercury-User-Research-Right,
+.mercury-User-Research-Left {
+  width: 50%;
+}
+
+.mercury-User-Research-Right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mercury-User-Research-Left span {
+  font-weight: 700;
+}
+
+/**/
 
 .site-Map-Container {
   width: 100%;
@@ -1295,4 +1339,13 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#final-interation {
+  width: 100%;
+  height: 100%;
 }

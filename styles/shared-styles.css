@@ -208,10 +208,7 @@ body {
 }
 
 .contents-List h3:hover {
-  border-left: 5px solid black;
-  margin-left: -23px;
-  padding-left: 18px;
-  color: black;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -227,4 +224,30 @@ body {
 
 .navbar-Container a {
   text-decoration: none;
+}
+.active h3 {
+  border-left: 5px solid black;
+  margin-left: -23px;
+  padding-left: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.headerActive {
+  color: #416bd0 !important;
+}
+
+#ux-start {
+  height: auto;
+  width: 100%;
+}
+
+#visual-start {
+  height: auto;
+  width: 100%;
+}
+
+#finisheddesign-start {
+  height: auto;
+  width: 100%;
 }
