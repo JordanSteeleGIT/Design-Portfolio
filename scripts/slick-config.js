@@ -1,13 +1,5 @@
 //Homepage banner slider
 $(".brands-Image-Container").slick({
-  // dots: false,
-  // prevArrow: false,
-  // nextArrow: false,
-  // slidesToShow: 2,
-  // slidesToScroll: 2,
-  // autoplay: true,
-  // autoplaySpeed: 3000,
-
   slidesToShow: 2,
   slidesToScroll: 1,
   autoplay: true,
@@ -17,6 +9,8 @@ $(".brands-Image-Container").slick({
   cssEase: "linear",
   prevArrow: false,
   nextArrow: false,
+  rtl: true,
+  infinite: true,
 });
 
 //Mercury user research slider
