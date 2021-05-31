@@ -5,7 +5,7 @@ $(function () {
     var target = $($(this).attr("href"));
     $("html, body").animate(
       {
-        scrollTop: target.offset().top - 80,
+        scrollTop: target.offset().top - 15,
       },
       600
     );
@@ -23,7 +23,7 @@ $(function () {
     $("section").each(function () {
       //looping over sections
       var id = $(this).attr("id"), // getting ID of section
-        offset = $(this).offset().top - 90,
+        offset = $(this).offset().top - 25,
         height = $(this).height();
       if (sTop >= offset && sTop < offset + height) {
         link.removeClass("active");
@@ -34,10 +34,11 @@ $(function () {
     });
   }
 
+  //this needs to be refactored. (currently just there to prove it can work!)
   function changeHeader() {
-    var ux = $("#ux-start").offset().top - 70;
-    var visual = $("#visual-start").offset().top - 70;
-    var final = $("#finisheddesign-start").offset().top - 70;
+    var ux = $("#ux-start").offset().top - 25;
+    var visual = $("#visual-start").offset().top - 25;
+    var final = $("#finisheddesign-start").offset().top - 25;
 
     var pos = $(window).scrollTop();
     var uxHeader = $("#contents-List-Id h2.ux-header");

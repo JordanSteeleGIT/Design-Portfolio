@@ -80,7 +80,7 @@
             <div class="main-Content-Container">
                 <div class="main-Content-Wrapper">
                     <div class="main-Content-Left">
-                        <section class="goals-Container">
+                        <section class="goals-Container" id="overview">
                             <div class="goals-Wrapper">
                                 <div class="goals-Upper">
                                     <div class="goals-Left">
@@ -125,7 +125,7 @@
                             </div>
                         </section>
 
-                        <section class="designs-Container">
+                        <section class="designs-Container" id="orginal-design">
                             <div class="designs-Wrapper">
                                 <div class="designs-Image-Container">
                                     <h1>Old Design <span>(Click to enlarge)</span></h1>
@@ -134,17 +134,17 @@
                                         <img src="./images/investor/design-image-two.png" alt="" srcset="">
                                     </div>
                                 </div>
-                                <div class="designs-Image-Container">
+                                <section class="designs-Image-Container" id="new-design">
                                     <h1>New Design <span>(Click to enlarge)</span></h1>
                                     <div class="design-Images">
                                         <img src="./images/investor/design-image-three.png" alt="" srcset="">
                                         <img src="./images/investor/design-image-four.png" alt="" srcset="">
                                     </div>
-                                </div>
+                                </section>
                             </div>
                         </section>
 
-                        <section class="conversion-Rate-Container">
+                        <section class="conversion-Rate-Container" id="ab-testing">
                             <div class="conversion-Rate-Wrapper">
                                 <div class="conversion-Rate-Left">
                                     <h1>Conversion rate A/B Testing</h1>
@@ -173,7 +173,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="tests-Container">
+                        <section class="tests-Container" id="ab-testing">
                             <div class="tests-Wrapper">
                                 <h1>A/B Tests</h1>
                                 <div class="tests-Content-Container">
@@ -239,7 +239,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="cta-Container">
+                        <section class="cta-Container" id="ab-finding">
                             <div class="cta-Wrapper">
                                 <h1>CTA Findings</h1>
                                 <div class="cta-Content-Container">
@@ -316,7 +316,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="investor-Conclusion-Container">
+                        <section class="investor-Conclusion-Container" id="ab-finding">
                             <div class="investor-Conclusion-Wrapper">
                                 <div class="investor-Conclusion-Left">
                                     <h1>Conclusion</h1><br>
@@ -334,7 +334,7 @@
                         </section>
 
 
-                        <section class="user-Retension-Container">
+                        <section class="user-Retension-Container" id="second-ab-testing">
                             <div class="user-Retension-Wrapper">
 
                                 <div class="user-Retension-Left">
@@ -357,7 +357,7 @@
 
 
 
-                        <section class="orginal-Pitch-Container">
+                        <section class="orginal-Pitch-Container" id="second-ab-testing">
                             <div class="orginal-Pitch-Wrapper">
 
                                 <div class="orginal-Pitch-Left">
@@ -388,7 +388,7 @@
                         </section>
 
 
-                        <section class="split-Test-Container">
+                        <section class="split-Test-Container" id="split-test">
                             <div class="split-Test-Wrapper">
                                 <h1>Split Test Hover Variations</h1>
                                 <div class="split-Test-Content-Container">
@@ -431,7 +431,7 @@
 
 
 
-                        <section class="test-Results-Container">
+                        <section class="test-Results-Container" id="split-result">
                             <div class="test-Results-Wrapper">
                                 <div class="test-Results-Left">
                                     <h1>A/B Test Results</h1>
@@ -455,7 +455,7 @@
                         </section>
 
 
-                        <section class="success-Container">
+                        <section class="success-Container" id="result">
                             <div class="success-Wrapper">
                                 <div class="success-Left">
                                     <h1>Measuring Success</h1>
@@ -526,17 +526,39 @@
                         <div class="side-Nav-Container">
                             <div class="side-Nav-Wrapper">
                                 <h1>Contents</h1>
-                                <div class="contents-List">
-                                    <h3>Overview</h3>
-                                    <h3>Orginal Design</h3>
-                                    <h3>New Design</h3>
-                                    <h3>A/B Testing</h3>
-                                    <h3>A/B Findings</h3>
-                                    <h3>Conclusion</h3>
-                                    <h3>Second A/B Test</h3>
-                                    <h3>Split Test</h3>
-                                    <h3>Split Test Result</h3>
-                                    <h3>Result</h3>
+                                <div class="contents-List" id="contents-List-Id">
+                                    <a data-scroll="overview" href="#overview" class="nav-item active">
+                                        <h3>Overview</h3>
+                                    </a>
+                                    <a data-scroll="orginal-design" href="#orginal-desgin" class="nav-item">
+                                        <h3>Orginal Design</h3>
+                                    </a>
+                                    <a data-scroll="new-design" href="#new-design" class="nav-item">
+                                        <h3>New Design</h3>
+                                    </a>
+
+                                    <a data-scroll="ab-testing" href="#ab-testing" class="nav-item">
+                                        <h3>A/B Testing</h3>
+                                    </a>
+
+                                    <a data-scroll="ab-finding" href="#ab-finding" class="nav-item">
+                                        <h3>A/B Findings</h3>
+                                    </a>
+
+                                    <a data-scroll="second-ab-testing" href="#second-ab-testing" class="nav-item">
+                                        <h3>Second A/B Test</h3>
+                                    </a>
+                                    <a data-scroll="split-test" href="#split-test" class="nav-item">
+                                        <h3>Split Test</h3>
+                                    </a>
+                                    <a data-scroll="split-result" href="#split-result" class="nav-item">
+                                        <h3>Split Test Result</h3>
+                                    </a>
+                                    <a data-scroll="result" href="#result" class="nav-item">
+                                        <h3>Result</h3>
+                                    </a>
+
+
 
                                 </div>
                             </div>
@@ -563,6 +585,7 @@
     <script src="./scripts/jquery-3.6.0.min.js"></script>
     <script src="./scripts/slick.min.js"></script>
     <script src="./scripts/slick-config.js"></script>
+    <script src="./scripts/scrolltest.js"></script>
 </body>
 
 </html>

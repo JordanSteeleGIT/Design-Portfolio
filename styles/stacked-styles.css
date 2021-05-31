@@ -1029,3 +1029,20 @@ li {
   color: #ffffff;
   background: #4da9e6;
 }
+
+.case-Study-Container button:hover {
+  background-color: transparent;
+  border: 3px solid #4da9e6;
+  color: #4da9e6;
+}
+
+.case-Study-Container button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #4da9e6;
+  border: none;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}

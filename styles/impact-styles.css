@@ -1011,3 +1011,7 @@ p {
   border: none;
   color: #ffffff;
 }
+
+a {
+  text-decoration: none;
+}

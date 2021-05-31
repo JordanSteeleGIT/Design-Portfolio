@@ -146,7 +146,6 @@
 .user-Research-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 100px;
 }
 .user-Research-Wrapper {
   width: 100%;
@@ -238,7 +237,8 @@
 .mercury-User-Research-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  padding-top: 100px;
 }
 
 .mercury-User-Research-Wrapper {
@@ -277,12 +277,10 @@
   font-weight: 700;
 }
 
-/**/
-
 .site-Map-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
+  padding-top: 100px;
 }
 .site-Map-Wrapper {
   width: 100%;
@@ -361,7 +359,6 @@
 .user-Journeys-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
 }
 
 .user-Journeys-Wrapper {
@@ -412,7 +409,7 @@
 .userflow-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
+  padding-top: 100px;
 }
 
 .userflow-Wrapper {
@@ -476,7 +473,8 @@ li {
 .wireframes-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
+
+  padding-top: 100px;
 }
 
 .wireframes-Wrapper {
@@ -617,7 +615,6 @@ li {
 .layout-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
 }
 
 .layout-Wrapper {
@@ -657,7 +654,8 @@ li {
 .color-Scheme-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 150px;
+
+  padding-top: 100px;
 }
 
 .color-Scheme-Wrapper {
@@ -698,7 +696,8 @@ li {
 .iconography-Container {
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
+
+  padding-top: 100px;
 }
 
 .iconography-Wrapper {
@@ -745,6 +744,7 @@ li {
   width: 100%;
   height: auto;
   margin-bottom: 90px;
+  padding-top: 100px;
 }
 
 .typography-Wrapper {
@@ -1345,7 +1345,27 @@ a {
   text-decoration: none;
 }
 
-#final-interation {
+/* #final-interation {
   width: 100%;
   height: 100%;
 }
+
+#user-research {
+  width: 100%;
+  height: auto;
+}
+
+#userflow {
+  width: 100%;
+  height: auto;
+}
+
+#wireframes {
+  width: 100%;
+  height: auto;
+}
+
+#site-map {
+  width: 100%;
+  height: auto;
+} */

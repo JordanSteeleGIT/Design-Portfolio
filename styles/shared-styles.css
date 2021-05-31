@@ -236,18 +236,3 @@ body {
 .headerActive {
   color: #416bd0 !important;
 }
-
-#ux-start {
-  height: auto;
-  width: 100%;
-}
-
-#visual-start {
-  height: auto;
-  width: 100%;
-}
-
-#finisheddesign-start {
-  height: auto;
-  width: 100%;
-}
