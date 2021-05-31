@@ -146,6 +146,7 @@
 .user-Research-Container {
   width: 100%;
   height: auto;
+  margin-bottom: 100px;
 }
 .user-Research-Wrapper {
   width: 100%;
@@ -238,7 +239,6 @@
   width: 100%;
   height: auto;
   margin-bottom: 100px;
-  padding-top: 100px;
 }
 
 .mercury-User-Research-Wrapper {
@@ -280,7 +280,7 @@
 .site-Map-Container {
   width: 100%;
   height: auto;
-  padding-top: 100px;
+  margin-bottom: 100px;
 }
 .site-Map-Wrapper {
   width: 100%;
