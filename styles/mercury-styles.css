@@ -473,8 +473,8 @@ li {
 .wireframes-Container {
   width: 100%;
   height: auto;
-
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .wireframes-Wrapper {
