@@ -36,35 +36,33 @@ $(function () {
 
   //this needs to be refactored. (currently just there to prove it can work!)
   function changeHeader() {
-    var ux = $("#ux-start").offset().top - 25;
-    var visual = $("#visual-start").offset().top - 25;
-    var final = $("#finisheddesign-start").offset().top - 25;
+    var ux_Start = $(".research-start").offset().top - 25;
+    var visual_Start = $(".visual-start").offset().top - 25;
+    var finished_Start = $(".finished-start").offset().top - 25;
 
     var pos = $(window).scrollTop();
     var uxHeader = $("#contents-List-Id h2.ux-header");
     var visualHeader = $("#contents-List-Id h2.visual-header");
     var finishedHeader = $("#contents-List-Id h2.finished-header");
 
-    if (pos > ux && pos < visual) {
+    if (pos > ux_Start && pos < visual_Start) {
       uxHeader.addClass("headerActive");
       visualHeader.removeClass("headerActive");
       finishedHeader.removeClass("headerActive");
     }
 
-    if (pos > visual && pos < final) {
+    if (pos > visual_Start && pos < finished_Start) {
       visualHeader.addClass("headerActive");
       finishedHeader.removeClass("headerActive");
       uxHeader.removeClass("headerActive");
     }
-    if (pos > final) {
+    if (pos > finished_Start) {
       visualHeader.removeClass("headerActive");
       finishedHeader.addClass("headerActive");
       uxHeader.removeClass("headerActive");
     }
-    if (pos < ux) {
+    if (pos < ux_Start) {
       uxHeader.removeClass("headerActive");
     }
   }
-
-  scrNav();
 });
