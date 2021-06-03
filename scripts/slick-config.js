@@ -41,8 +41,10 @@ $(".booking-Slider-Container").slick({
   prevArrow: false,
   nextArrow: false,
   slidesToShow: 4,
-  slidesToScroll: 3,
+  slidesToScroll: 1,
   infinite: false,
+  draggable: true,
+  swipe: true,
 });
 
 //Finding a store
