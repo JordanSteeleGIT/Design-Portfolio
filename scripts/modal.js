@@ -21,20 +21,21 @@ modal.addEventListener("click", (e) => {
   }
 });
 var zoomedl = 0;
+
 modal_image.addEventListener("click", (e) => {
-  var current = { x: 0, y: 0, zoom: 1 };
+  var current = { x: 0, y: 0, zoom: 1.5 };
   if (zoomedl == 0) {
     zoomedl = 1;
-    oz = current.zoom;
-    nz = current.zoom = 1.5;
-    ix = (e.clientX - current.x) / oz;
-    iy = (e.clientY - current.y) / oz;
+
+    nz = current.zoom;
+    ix = e.clientX;
+    iy = e.clientY;
     /// calculate click at new zoom
     nx = ix * nz;
     ny = iy * nz;
     /// move to the difference
-    cx = current.x = ix - nx;
-    cy = current.y = iy - ny;
+    cx = ix - nx + 50;
+    cy = iy - ny - 50;
 
     modal_image.style.transform =
       "translate(" + cx + "px, " + cy + "px) " + "scale(" + nz + ")";

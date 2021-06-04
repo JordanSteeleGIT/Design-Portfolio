@@ -950,7 +950,7 @@ li {
   margin-bottom: 100px;
 }
 
-.final-Interation-Slider:after {
+/* .final-Interation-Slider:after {
   content: "";
   position: absolute;
   z-index: 1;
@@ -964,15 +964,17 @@ li {
   );
   width: 10%;
   height: 100%;
-}
+} */
 
 .final-Interation-Slider img {
   height: 532px;
   width: 266px;
+  margin-bottom: 25px;
 }
 
 .final-Interation-Slider .slick-list {
-  padding: 0 8% 0 0 !important;
+  /* padding: 0 8% 0 0 !important; */
+  overflow-x: scroll;
 }
 
 .booking-Slider {

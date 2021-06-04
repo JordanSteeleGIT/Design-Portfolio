@@ -168,7 +168,7 @@ body {
   width: 198px;
   height: 100%;
   position: sticky;
-  top: 5em;
+  top: 3em;
 }
 
 .side-Nav-Container {
@@ -235,6 +235,25 @@ body {
 
 .headerActive {
   color: #416bd0 !important;
+}
+
+.slick-list::-webkit-scrollbar {
+  width: 12px;
+  height: 11px;
+}
+
+/* Track */
+.slick-list::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #eeeeee;
+}
+
+/* Handle */
+.slick-list::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #b3b3b3;
 }
 
 .modal {
