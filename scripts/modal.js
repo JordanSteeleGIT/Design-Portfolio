@@ -22,7 +22,6 @@ modal.addEventListener("click", (e) => {
     modal_image.src = "";
   }
   if (!e.target.classList.contains("modal")) {
-    modal.style.cursor = "pointer";
   }
 });
 var zoomed = 0;
@@ -89,4 +88,11 @@ modal_Two.addEventListener("click", (e) => {
   if (!e.target.classList.contains("modal-two")) {
     modal_Two.style.cursor = "pointer";
   }
+});
+modal_Two.addEventListener("mouseenter", function (event) {
+  modal_Two.style.cursor = "pointer";
+});
+
+modal.addEventListener("mouseenter", function (event) {
+  modal.style.cursor = "pointer";
 });
