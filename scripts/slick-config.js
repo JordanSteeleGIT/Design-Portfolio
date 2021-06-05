@@ -11,6 +11,7 @@ $(".brands-Image-Container").slick({
   nextArrow: false,
   rtl: true,
   infinite: true,
+  draggable: false,
 });
 
 //Mercury user research slider
@@ -21,6 +22,7 @@ $(".user-Research-Right").slick({
   prevArrow: false,
   nextArrow: false,
   dots: true,
+  draggable: true,
 });
 
 //Final iteration slider
@@ -33,6 +35,7 @@ $(".final-Interation-Slider").slick({
   autoplay: true,
   autoplaySpeed: 3000,
   speed: 800,
+  draggable: false,
 });
 
 //Booking changing room slider
@@ -43,7 +46,7 @@ $(".booking-Slider-Container").slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   infinite: false,
-  draggable: true,
+  draggable: false,
   swipe: true,
 });
 
@@ -56,6 +59,7 @@ $(".store-Slider-Container").slick({
   slidesToShow: 4,
   slidesToScroll: 3,
   infinite: false,
+  draggable: false,
 });
 
 //Ordering items slider
@@ -67,6 +71,7 @@ $(".order-Slider-Container").slick({
   slidesToShow: 4,
   slidesToScroll: 3,
   infinite: false,
+  draggable: false,
 });
 //Parcel slider
 $(".tracking-Parcel-Slider").slick({
@@ -75,6 +80,7 @@ $(".tracking-Parcel-Slider").slick({
   nextArrow: false,
   slidesToShow: 2,
   slidesToScroll: 2,
+  draggable: false,
   infinite: false,
 });
 
@@ -85,6 +91,7 @@ $(".creating-Account-Slider").slick({
   nextArrow: false,
   slidesToShow: 3,
   slidesToScroll: 2,
+  draggable: false,
   infinite: false,
 });
 
@@ -95,6 +102,7 @@ $(".checking-Orders-Slider").slick({
   nextArrow: false,
   slidesToShow: 2,
   slidesToScroll: 2,
+  draggable: false,
   infinite: false,
 });
 
@@ -106,6 +114,7 @@ $(".impact-Wireframes-Lower").slick({
   slidesToShow: 2,
   slidesToScroll: 2,
   infinite: false,
+  draggable: false,
 });
 
 //Impact desktop slider
@@ -115,8 +124,9 @@ $(".desktop-Slider-Container").slick({
   nextArrow: false,
   slidesToShow: 2,
   slidesToScroll: 1,
-  infinite: true,
+  infinite: false,
   autoplay: true,
+  draggable: false,
   autoplaySpeed: 3000,
 });
 
@@ -129,5 +139,6 @@ $(".mobile-Slider-Container").slick({
   slidesToScroll: 1,
   infinite: true,
   autoplay: true,
+  draggable: false,
   autoplaySpeed: 3000,
 });
