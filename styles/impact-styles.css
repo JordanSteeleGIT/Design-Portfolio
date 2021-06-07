@@ -752,7 +752,7 @@ li {
   display: flex;
 }
 .nav-Bar-Left {
-  width: auto;
+  width: 60%;
   height: auto;
 }
 
@@ -761,7 +761,7 @@ li {
   font-size: var(--paragraph-font-size);
   font-weight: var(--paragraph-font-weight);
   line-height: var(--paragraph-line-height);
-  width: 60%;
+  width: 83%;
   margin-bottom: 20px;
 }
 
