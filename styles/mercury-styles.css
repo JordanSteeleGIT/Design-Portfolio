@@ -259,7 +259,7 @@
   font-size: var(--paragraph-font-size);
   font-weight: var(--paragraph-font-weight);
   line-height: var(--paragraph-line-height);
-  width: 88%;
+  width: 97%;
 }
 
 .mercury-User-Research-Right,
@@ -404,6 +404,7 @@
   width: 80%;
   float: right;
   margin-top: 5px;
+  font-style: italic;
 }
 
 .userflow-Container {
@@ -565,6 +566,7 @@ li {
   width: 37%;
   float: right;
   margin-top: 10px;
+  font-style: italic;
 }
 
 .user-Testing-Container {
@@ -602,14 +604,6 @@ li {
 
 .user-Testing-Right {
   padding-top: 40px;
-}
-
-.user-Testing-Right h2 {
-  float: right;
-  color: var(--paragraph-color);
-  font-size: 16px;
-  font-weight: var(--paragraph-font-weight);
-  padding-right: 18px;
 }
 
 .layout-Container {

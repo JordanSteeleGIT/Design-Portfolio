@@ -39,6 +39,7 @@ $(function () {
     var ux_Start = $(".research-start").offset().top - 25;
     var visual_Start = $(".visual-start").offset().top - 25;
     var finished_Start = $(".finished-start").offset().top - 25;
+    var conclusion_Start = $(".conclusion-start").offset().top - 25;
 
     var pos = $(window).scrollTop();
     var uxHeader = $("#contents-List-Id h2.ux-header");
@@ -56,13 +57,17 @@ $(function () {
       finishedHeader.removeClass("headerActive");
       uxHeader.removeClass("headerActive");
     }
-    if (pos > finished_Start) {
+    if (pos > finished_Start && pos < conclusion_Start) {
       visualHeader.removeClass("headerActive");
       finishedHeader.addClass("headerActive");
       uxHeader.removeClass("headerActive");
     }
     if (pos < ux_Start) {
       uxHeader.removeClass("headerActive");
+    }
+    if (pos > conclusion_Start) {
+      finishedHeader.removeClass("headerActive");
+      console.log("hello");
     }
   }
 });
