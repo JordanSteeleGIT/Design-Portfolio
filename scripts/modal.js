@@ -6,9 +6,9 @@ const modal_Two = document.querySelector(".modal-two");
 const small_Image_Two = document.querySelectorAll(".preview-image-two");
 const modal_Image_Two = document.querySelector(".full-img-two");
 
-// const modal_Two = document.querySelector(".modal-two");
-// const small_image_two = document.querySelectorAll(".preview-image-two");
-// const modal_image_two = document.querySelector(".full-img-two");
+const modal_Three = document.querySelector(".modal-three");
+const small_Image_Three = document.querySelectorAll(".preview-image-three");
+const modal_Image_Three = document.querySelector(".full-img-three");
 
 //Modal one
 small_Image.forEach((img) => {
@@ -33,7 +33,7 @@ modal.addEventListener("click", (e) => {
 var zoomed = 0;
 //Modal one
 modal_Image.addEventListener("click", (e) => {
-  var current = { x: 0, y: 0, zoom: 1.5 };
+  var current = { x: 0, y: 0, zoom: 1.7 };
   if (zoomed == 0) {
     zoomed = 1;
 
@@ -82,6 +82,54 @@ modal_Two.addEventListener("mouseenter", function (event) {
   modal_Two.style.cursor = "pointer";
 });
 //Modal two
-modal.addEventListener("mouseenter", function (event) {
-  modal.style.cursor = "pointer";
+modal_Two.addEventListener("mouseenter", function (event) {
+  modal_Two.style.cursor = "pointer";
 });
+
+////////////////////////////////////////////////////////////
+
+//Modal three
+small_Image_Three.forEach((img2) => {
+  img2.addEventListener("click", () => {
+    const orginalSrc = img2.getAttribute("data-orginal");
+    modal_Image_Three.src = orginalSrc;
+    modal_Three.classList.add("open");
+  });
+});
+//Modal three
+modal_Three.addEventListener("click", (e) => {
+  if (e.target.classList.contains("modal-three")) {
+    modal_Three.classList.remove("open");
+    modal_Image_Three.src = "";
+  }
+  if (!e.target.classList.contains("modal-three")) {
+    modal_Three.style.cursor = "pointer";
+  }
+});
+//Modal three
+modal_Three.addEventListener("mouseenter", function (event) {
+  modal_Three.style.cursor = "pointer";
+});
+//Modal three
+modal_Three.addEventListener("mouseenter", function (event) {
+  modal_Three.style.cursor = "pointer";
+});
+
+// var zoomed_Three = 0;
+// modal_Image_Three.addEventListener("click", (e) => {
+//   var x = e.clientX;
+//   var y = e.clientY;
+
+//   if (zoomed_Three == false) {
+//     modal_Image_Three.style.transformOrigin = x + "px " + y + "px";
+//     modal_Image_Three.style.transform = "scale(" + 1.7 + ")";
+
+//     modal_Image_Three.style.cursor = "zoom-out";
+//     zoomed_Three = 1;
+//   } else {
+//     modal_Image_Three.style.transform =
+//       "translate(" + -50 + "%) " + "scale(" + 1 + ")";
+//     modal_Image_Three.style.cursor = "zoom-in";
+//     zoomed_Three = 0;
+//   }
+// });
