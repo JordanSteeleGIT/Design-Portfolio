@@ -376,6 +376,19 @@
   line-height: 22px;
 }
 
+.wireframes-Left button:hover {
+  background-color: transparent;
+  border: 3px solid #416bd0;
+  color: #416bd0;
+}
+
+.wireframes-Left button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #416bd0;
+  border: none;
+  color: #ffffff;
+}
+
 .wireframes-Right ol {
   padding-left: 20px;
 }

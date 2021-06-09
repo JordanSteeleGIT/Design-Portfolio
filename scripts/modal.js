@@ -10,6 +10,10 @@ const modal_Three = document.querySelector(".modal-three");
 const small_Image_Three = document.querySelectorAll(".preview-image-three");
 const modal_Image_Three = document.querySelector(".full-img-three");
 
+const modal_Four = document.querySelector(".modal-four");
+const small_Image_Four = document.querySelectorAll(".preview-image-four");
+const modal_Image_Four = document.querySelector(".full-img-four");
+
 //Modal one
 small_Image.forEach((img) => {
   img.addEventListener("click", () => {
@@ -115,21 +119,49 @@ modal_Three.addEventListener("mouseenter", function (event) {
   modal_Three.style.cursor = "pointer";
 });
 
-// var zoomed_Three = 0;
-// modal_Image_Three.addEventListener("click", (e) => {
-//   var x = e.clientX;
-//   var y = e.clientY;
+/////////////////////////////////////////////////////////
+//Modal Four
+small_Image_Four.forEach((img2) => {
+  img2.addEventListener("click", () => {
+    const orginalSrc = img2.getAttribute("data-orginal");
+    modal_Image_Four.src = orginalSrc;
+    modal_Four.classList.add("open");
+  });
+});
+//Modal Four
+modal_Four.addEventListener("click", (e) => {
+  if (e.target.classList.contains("modal-four")) {
+    modal_Four.classList.remove("open");
+    modal_Image_Four.src = "";
+  }
+  if (!e.target.classList.contains("modal-four")) {
+    modal_Four.style.cursor = "pointer";
+  }
+});
+//Modal Four
+modal_Four.addEventListener("mouseenter", function (event) {
+  modal_Four.style.cursor = "pointer";
+});
+//Modal Four
+modal_Four.addEventListener("mouseenter", function (event) {
+  modal_Four.style.cursor = "pointer";
+});
 
-//   if (zoomed_Three == false) {
-//     modal_Image_Three.style.transformOrigin = x + "px " + y + "px";
-//     modal_Image_Three.style.transform = "scale(" + 1.7 + ")";
+var zoomed_Four = 0;
+modal_Image_Four.addEventListener("click", (e) => {
+  var x = e.clientX;
+  var y = e.clientY;
 
-//     modal_Image_Three.style.cursor = "zoom-out";
-//     zoomed_Three = 1;
-//   } else {
-//     modal_Image_Three.style.transform =
-//       "translate(" + -50 + "%) " + "scale(" + 1 + ")";
-//     modal_Image_Three.style.cursor = "zoom-in";
-//     zoomed_Three = 0;
-//   }
-// });
+  if (zoomed_Four == false) {
+    modal_Image_Four.style.transformOrigin = x + "px " + y + "px";
+    modal_Image_Four.style.transform = "scale(" + 2 + ")";
+
+    modal_Image_Four.style.cursor = "zoom-out";
+    zoomed_Four = 1;
+  } else {
+    modal_Image_Four.style.transform =
+      "translate(" + -50 + "%) " + "scale(" + 1 + ")";
+    modal_Image_Four.style.cursor = "zoom-in";
+    zoomed_Four = 0;
+  }
+});
